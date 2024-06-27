@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+
+}
+.fixed{
+    overflow: hidden;
+    
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+$red: #D43333;
+html   {
+    scroll-behavior: smooth;
+}
+.bodyBloc{
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.container{
+    width: 1600px;
+    margin: 0px auto;
+}
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+    color: #D43333;
+}
+.h2{
+    font-size: clamp(36px, 7vw, 128px);
+    font-weight: 600;
+    line-height: clamp(35px, 100%, 156px);
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px rgb(0 0 0 / 30%);
+}
+.t14{
+    font-size: clamp(12px, 2vw, 14px);
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.t20{
+    font-size: clamp(16px, 2vw, 20px) ;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+@import "./header.scss";
+@import "./fease.scss";
+@import "./welcome.scss";
+@import "./tabSlider.scss";
+@import "./lineContakt.scss";
+@import "./slider.scss";
+@import "./popapType.scss";
+@import "./documents.scss";
+@import "./dopolnitelno.scss";
+@import "./kontakts.scss";
+@import "./foscontact.scss";
+
+
+@import "./footer.scss";
+@import "./media.scss";

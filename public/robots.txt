@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+Disallow: /static/
+Disallow: /img/
+Disallow: /documents/
+Host: chinavisacenter.ru
+sitemap: https://chinavisacenter.ru/sitemap.xml

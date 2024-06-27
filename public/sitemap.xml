@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+  <url>
+    <loc>http://chinavisacenter.ru/</loc>
+    <lastmod>2024-03-13T00:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://chinavisacenter.ru/?visa=turisticheskaya</loc>
+    <lastmod>2024-04-03T00:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>http://chinavisacenter.ru/?visa=delovay</loc>
+    <lastmod>2024-04-03T00:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>http://chinavisacenter.ru/?visa=uchebnay</loc>
+    <lastmod>2024-04-03T00:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>http://chinavisacenter.ru/?visa=lichniyceli</loc>
+    <lastmod>2024-04-03T00:00:00+04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

@@ -1,0 +1,23 @@
+.footer{
+    height: 80px;
+    background: #F1F1F1;
+
+    &_logo{
+        height: 70px;
+        width: auto;
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+    .linecontakt_fos{
+
+    }
+
+}

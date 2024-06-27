@@ -1,0 +1,642 @@
+@media only screen and (max-width: 1625px) {
+    .container {
+        width: 1400px;
+    }
+
+    .fease .h2 .-cen {
+        padding-left: 7px;
+    }
+    .fease_ps {
+        padding-left: 9px;
+    }
+    .welcome h1 {
+        padding-left: 56px;
+    }
+
+    .welcome_hellow .-imgHellow {
+        left: 55px;
+    }
+    .dopolnitelno_listSlid-bloc {
+        width: 500px;
+    }
+}
+@media only screen and (max-height: 900px) {
+    section {
+        &.documents {
+            height: auto;
+        }
+        &.slider {
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    .container {
+        width: 90%;
+    }
+
+    .kontakts_content_content {
+        display: block;
+    }
+    .kontakts_content_minBox {
+        grid-template-columns: 5% 85%;
+    }
+
+    iframe {
+        height: 500px !important;
+    }
+    .dopolnitelno_content_item {
+        gap: unset;
+    }
+    .dopolnitelno_content_item_head h3 {
+        font-size: clamp(20px, 2vw, 32px);
+    }
+    .header_menu {
+        gap: 14px;
+    }
+    .header .container {
+        gap: 1%;
+    }
+    .fease .h2 .-cen {
+        padding-left: 5px;
+    }
+    .fease_ps {
+        padding-left: 8px;
+    }
+    .header_logo {
+        padding-left: 8px;
+    }
+}
+@media only screen and (max-width: 1425px) {
+    .dopolnitelno_content_item_content {
+        gap: 15px;
+    }
+    .fease {
+        background-position: center;
+        background-size: cover;
+        animation-name: fonAnim;
+    }
+    @keyframes fonAnim {
+        0% {
+            background-position: -110px 0px;
+        }
+        50% {
+            background-position: -200px;
+        }
+        100% {
+            background-position: -110px 0px;
+        }
+    }
+    section.documents ul {
+        height: auto;
+    }
+    .documents ul li {
+        max-width: 100%;
+    }
+    .slider_titleBox-text h3 {
+        line-height: 30px;
+    }
+    .kontakts_content_minBox {
+        grid-template-columns: 15% 85%;
+    }
+    .header_contact_soc {
+        gap: 5px;
+    }
+    .dopolnitelno_content {
+        gap: 5px;
+    }
+    .dopolnitelno_container {
+        flex-direction: column;
+    }
+    .dopolnitelno_listSlid_head {
+        min-width: 100%;
+    }
+    .dopolnitelno_listSlid_head_name h3 {
+        writing-mode: horizontal-tb;
+        height: min-content;
+    }
+    .dopolnitelno_listSlid_head_name {
+        height: min-content;
+        width: 100%;
+    }
+    .dopolnitelno_listSlid_head {
+        flex-direction: row-reverse;
+        height: 100px;
+        min-height: 100px;
+        border: none;
+        border-bottom: 2px solid
+            rgba(255, 255, 255, 0.3568627451);
+        border-bottom-style: dashed;
+    }
+    .dopolnitelno_listSlid {
+        max-width: none;
+        max-height: 100px;
+        height: 100px;
+        flex-direction: column;
+        transition:none;
+        transition: max-height 1s ease-out 3s;
+        -mos-transition: max-height 1s ease-out 3s;
+        -webkit-transition: max-height 01 ease-out 3s;
+    }
+    .dopolnitelno_listSlid.active {
+        height: 800px;
+
+        max-width: none;
+        max-height: 2000px;
+       
+        
+    }
+    .dopolnitelno_listSlid .dopolnitelno_listSlid_content {
+        min-height: 0px;
+    }
+    .dopolnitelno_listSlid.active .dopolnitelno_listSlid_content {
+        min-height: 570px;
+    }
+    .dopolnitelno_listSlid_content{
+        margin: 25px;
+    }
+    .dopolnitelno_listSlid {
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3568627451);
+    }
+
+    .dopolnitelno_listSlid-bloc {
+        width: 100%;
+    }
+
+    .dopolnitelno_listSlid_content {
+        flex-wrap: nowrap;
+    }
+
+    .dopolnitelno_content_item_content_text {
+        max-width: none;
+    }
+
+    .dopolnitelno_listSlid.active {
+        height: 920px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .dopolnitelno {
+        height: auto;
+        min-height: none;
+        &_content {
+            display: block;
+        }
+    }
+    .documents ul {
+        column-gap: 12px;
+    }
+    .slider_titleBox-text::after {
+        top: 14px;
+        width: 100%;
+        font-size: 200px;
+    }
+    .welcome_hellow b {
+        font-size: 40px;
+    }
+    .dopolnitelno_content_item_head {
+        min-height: auto;
+        height: 230px;
+    }
+    .dopolnitelno_content_item_head h3 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .dopolnitelno_content_item_content {
+        padding-bottom: 20px;
+    }
+    .header {
+        .container {
+            padding: 10px 10px !important;
+        }
+    }
+
+    .menu {
+        display: block;
+    }
+    .header_navigation {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 0vh;
+        overflow: hidden;
+        z-index: 9999;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        transition: 300ms;
+        gap: 20px;
+    }
+    .header_navigation.active {
+        height: 100vh;
+        gap: 60px;
+    }
+    .header_logo {
+        z-index: 99999;
+    }
+    .header:has(.header_navigation.active) {
+        .header_logo > img {
+            filter: grayscale(0) invert(0);
+        }
+    }
+    .header_menu {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        flex-direction: column;
+    }
+    .header_contact {
+        min-width: 39%;
+        gap: 20px;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    .slider_infoBox:has(.slider_infoBox_item:nth-child(3)) {
+        justify-content: space-between;
+        gap: unset;
+    }
+    .slider_infoBox_item {
+        max-width: 30%;
+    }
+    .popapType_title {
+        height: 180px;
+        width: 100%;
+    }
+    .popapType_title::after {
+        left: 0;
+        font-size: 26vh;
+    }
+    .popapType_content_van {
+        position: relative;
+        padding-left: 0px;
+        padding-top: 66px;
+    }
+    .popapType_content_van::after {
+        content: "1";
+
+        top: -23px;
+        left: 0px;
+    }
+    .popapType_cheked {
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: absolute;
+        color: #fff;
+        bottom: -65px;
+
+        span {
+            font-size: 62px;
+            font-weight: 600;
+            line-height: 117px;
+            letter-spacing: 0em;
+            border: 2px solid #ffffff;
+            width: 70px;
+            height: 70px;
+            text-align: left;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.4;
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+    .popapType_content > div::after {
+        content: none;
+    }
+    .popapType_content {
+        gap: 0;
+    }
+    .popapType_content > div {
+        transition: 300ms;
+
+        overflow: hidden;
+        padding: 0;
+        max-width: none;
+        width: 0%;
+        padding-top: 80px;
+
+        &.active {
+            width: 100%;
+        }
+    }
+    .popapType_content_van_mail {
+        font-size: 27px;
+        line-height: 31px;
+    }
+    .popapType_content_ul {
+        padding: 0px 0px;
+        padding-left: 22px;
+    }
+    .popapType_content_ul li {
+        line-height: 20px;
+        padding: 5px 0px;
+    }
+    .welcome_hellow .-imgHellow {
+        z-index: -1;
+        width: 374px;
+        bottom: -134px;
+        height: 180px;
+
+        // display: none !important;
+    }
+    .welcome_udal {
+        animation: none;
+    }
+    .documents_warning {
+        max-width: none;
+    }
+    .welcome_ps_text {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 775px) {
+    .welcome_udal img:hover {
+        animation: none;
+    }
+    .kontakts .container {
+        display: block;
+    }
+    .welcome_ps_text {
+        margin-top: 0;
+        font-size: clamp(14px, 3vw, 18px);
+    }
+    .welcome_hellow .-imgHellow {
+        display: none;
+    }
+    .slider_cheked_items {
+        min-height: 15vh;
+    }
+    .kontakts_content_minBox {
+        width: 100%;
+    }
+    .slider_cheked_items p {
+        display: none;
+    }
+    .kontakts {
+        height: auto;
+    }
+    iframe {
+        height: 500px !important;
+    }
+    .kontakts_content_minBox {
+        grid-template-columns: 10% 90%;
+    }
+    .slider {
+        height: auto;
+        background: #0c0f2996;
+        position: relative;
+        transition: 600ms;
+        &_img {
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .container {
+            display: block;
+        }
+        &_content {
+            margin: 0;
+            display: block;
+        }
+        &_titleBox {
+            height: 180px;
+
+            &_tab_box p {
+                display: none;
+            }
+            &-text {
+                h3 {
+                    font-size: 14px;
+                    line-height: 100%;
+                }
+
+                &::after {
+                    font-size: 150px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+    .slider_infoBox {
+        display: block;
+        // flex-wrap: wrap;
+        padding: 20px 0px 20px 0px;
+    }
+    .slider_infoBox_item {
+        max-width: 90%;
+        padding-left: 80px;
+        padding-bottom: 30px;
+        gap: 10px;
+        position: relative;
+    }
+    .slider_infoBox:has(.slider_infoBox_item:nth-child(2)) {
+        gap: 25px;
+    }
+
+    .slider_infoBox:has(.slider_infoBox_item:nth-child(3)) {
+        gap: 20px;
+    }
+    .slider_infoBox_item:first-child::after {
+        content: "Срок рассмотрения документов в консульстве:";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        left: -64px;
+        bottom: 133px;
+        width: 200px;
+        color: rgba(255, 255, 255, 0.6431372549);
+        transform: rotateZ(270deg);
+    }
+    .slider_img_img {
+        position: absolute;
+        top: 0;
+        right: 0%;
+        background-position: top center;
+        background-size: cover !important;
+        width: 100%;
+        height: 100%;
+    }
+    .slider_infoBox_item::after {
+        content: "Срок рассмотрения документов в консульстве:";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        left: -64px;
+        bottom: 133px;
+        width: 200px;
+        color: rgba(255, 255, 255, 0.6431372549);
+        transform: rotateZ(270deg);
+    }
+    .welcome {
+        height: auto;
+    }
+    .welcome {
+        height: auto;
+        h1 {
+            padding: 0;
+            padding-top: 6px;
+        }
+        &_content {
+            display: block;
+        }
+        &_hellow {
+            text-align: left;
+            line-height: 100%;
+            b {
+                font-size: 27px;
+                line-height: 39px;
+            }
+            &::after {
+                content: none;
+            }
+        }
+        &_udal {
+            img {
+                position: static;
+            }
+        }
+        &_udal p {
+            padding: 0;
+        }
+        &_ps_box {
+            padding: 20px 0px;
+        }
+    }
+    .tabCeked {
+        width: 25%;
+        height: 200px;
+    }
+    .tabCeked_text {
+        bottom: auto;
+        top: 37%;
+    }
+    .documents {
+        height: auto;
+        ul {
+            height: auto;
+            li {
+                max-width: none;
+            }
+        }
+        &_warning {
+            max-width: none;
+        }
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px !important;
+    }
+    .header a {
+        color: #000;
+        border-color: #000 !important;
+    }
+    .header img:not(.header_logo > img) {
+        filter: invert(0);
+    }
+    .documents ul {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .dopolnitelno_listSlid_head_name h3 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .slider_titleBox {
+        height: 130px;
+    }
+    .slider_titleBox-text:after {
+        top: -21px;
+    }
+    .tabSlider {
+        padding: 0;
+        margin: 0;
+    }
+    .fease .h2 .-cen {
+        padding-left: 2px;
+    }
+    .fease_ps {
+        padding-left: 0px;
+    }
+    .header_logo {
+        padding-left: 12px;
+    }
+    .fease {
+        background-image: url(../../public/img/feasemin.webp);
+    }
+    .documents ul li:has(span) .-dop {
+        right: -10px;
+    }
+    .dopolnitelno_content_item_content_tab_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .container {
+        width: 100%;
+        padding: 0px 20px !important;
+    }
+    .linecontakt {
+        a {
+            span {
+                display: none;
+            }
+        }
+    }
+    .fease .linecontakt {
+        // position: sticky;
+    }
+
+    .tabSlider {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .tabCeked {
+        width: 50%;
+    }
+
+    .h2 {
+        font-size: clamp(28px, 8vw, 128px);
+    }
+
+    .linecontakt_fos {
+        width: 243px;
+        height: 60px;
+    }
+    .fosContact_form {
+        width: 90%;
+    }
+
+    .header_menu {
+        gap: 25px;
+    }
+
+    .dopolnitelno_listSlid.active {
+        height: 1150px;
+    }
+
+    .dopolnitelno_content_item_button {
+        width: 100% !important;
+    }
+}
