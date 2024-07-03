@@ -10,7 +10,7 @@ export default function Fease({setFos, setType}) {
                         Визы{" "}
                         в китай{" "}
                         <br />
-                        <span className="-cen"> <span className="-min">от</span> 21 600 ₽</span>
+                        <span className="-cen"> <span className="-min">от</span> 19 900 ₽</span>
                 </p>
                 <p className="fease_ps">
                 за самые минимальные сроки   
