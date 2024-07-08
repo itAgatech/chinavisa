@@ -7,10 +7,12 @@ export default function Fease({setFos, setType}) {
         <section title="Панорамный вид на Гуанчжоу" className="fease">
             <div className="container flex_center fease_box">
                 <p className="h2">
-                        Визы{" "}
+                        {/* Визы{" "}
                         в китай{" "}
                         <br />
-                        <span className="-cen"> <span className="-min">от</span> 19 900 ₽</span>
+                        <span className="-cen"> <span className="-min">от</span> 19 900 ₽</span> */}
+                        ВИЗА В КИТАЙ<br /> В ОДИН КЛИК!
+
                 </p>
                 <p className="fease_ps">
                 за самые минимальные сроки   
